@@ -1,0 +1,5 @@
+{
+    // To prevent installer.cfg from being set to the Pynsit Configuration
+    // syntax, set this to false
+    "auto_set_syntax": true
+}

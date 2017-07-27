@@ -1,0 +1,109 @@
+{
+  "scope": "source.cfg.pynsist",
+  "completions": [
+    {
+      "contents": "[Application]",
+      "trigger": "application\t[]"
+    },
+    {
+      "contents": "[Build]",
+      "trigger": "build\t[]"
+    },
+    {
+      "contents": "[Command ${1:name}]",
+      "trigger": "command\t[]"
+    },
+    {
+      "contents": "[Include]",
+      "trigger": "include\t[]"
+    },
+    {
+      "contents": "[Python]",
+      "trigger": "python\t[]"
+    },
+    {
+      "contents": "[Shortcut ${1:Name}]",
+      "trigger": "shortcut\t[]"
+    },
+    {
+      "contents": "bitness=${1:32|64}",
+      "trigger": "bitness\t="
+    },
+    {
+      "contents": "console=${1:true|false}",
+      "trigger": "console\t="
+    },
+    {
+      "contents": "directory=${1:build/nsis/}",
+      "trigger": "directory\t="
+    },
+    {
+      "contents": "entry_point=${1:module:function}",
+      "trigger": "entry_point\t="
+    },
+    {
+      "contents": "exclude=${1:exclude}",
+      "trigger": "exclude\t="
+    },
+    {
+      "contents": "extra_preamble=${1:extra_preamble}",
+      "trigger": "extra_preamble\t="
+    },
+    {
+      "contents": "files=${1:files}",
+      "trigger": "files\t="
+    },
+    {
+      "contents": "format=${1:installer|bundled}",
+      "trigger": "format\t="
+    },
+    {
+      "contents": "icon=${1:icon}.ico",
+      "trigger": "icon\t="
+    },
+    {
+      "contents": "include_msvcrt=${1:true|false}",
+      "trigger": "include_msvcrt\t="
+    },
+    {
+      "contents": "installer_name=${1:installer_name}",
+      "trigger": "installer_name\t="
+    },
+    {
+      "contents": "name=${1:name}",
+      "trigger": "name\t="
+    },
+    {
+      "contents": "nsi_template=${1:nsi_template}",
+      "trigger": "nsi_template\t="
+    },
+    {
+      "contents": "packages=${1:packages}",
+      "trigger": "packages\t="
+    },
+    {
+      "contents": "parameters=${1:parameters}",
+      "trigger": "parameters\t="
+    },
+    {
+      "contents": "pypi_wheels=${1:name==version}",
+      "trigger": "pypi_wheels\t="
+    },
+    {
+      "contents": "publisher=${1:publisher}",
+      "trigger": "publisher\t="
+    },
+    {
+      "contents": "script=${1:script}",
+      "trigger": "script\t="
+    },
+    {
+      "contents": "target=${1:target}",
+      "trigger": "target\t="
+    },
+    {
+      "contents": "version=${1:version}",
+      "trigger": "version\t="
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "scope": "source.cfg.pynsist",
+  "completions": [
+    {
+      "contents": "\\$COMMONFILES64",
+      "trigger": "COMMONFILES64\t$COMMONFILES64"
+    },
+    {
+      "contents": "\\$COOKIES",
+      "trigger": "COOKIES\t$COOKIES"
+    },
+    {
+      "contents": "\\$PROFILE",
+      "trigger": "PROFILE\t$PROFILE"
+    },
+    {
+      "contents": "\\$PICTURES",
+      "trigger": "PICTURES\t$PICTURES"
+    },
+    {
+      "contents": "\\$APPDATA",
+      "trigger": "APPDATA\t$APPDATA"
+    },
+    {
+      "contents": "\\$RESOURCES_LOCALIZED",
+      "trigger": "RESOURCES_LOCALIZED\t$RESOURCES_LOCALIZED"
+    },
+    {
+      "contents": "\\$QUICKLAUNCH",
+      "trigger": "QUICKLAUNCH\t$QUICKLAUNCH"
+    },
+    {
+      "contents": "\\$DOCUMENTS",
+      "trigger": "DOCUMENTS\t$DOCUMENTS"
+    },
+    {
+      "contents": "\\$PRINTHOOD",
+      "trigger": "PRINTHOOD\t$PRINTHOOD"
+    },
+    {
+      "contents": "\\$STARTMENU",
+      "trigger": "STARTMENU\t$STARTMENU"
+    },
+    {
+      "contents": "\\$COMMONFILES",
+      "trigger": "COMMONFILES\t$COMMONFILES"
+    },
+    {
+      "contents": "\\$TEMPLATES",
+      "trigger": "TEMPLATES\t$TEMPLATES"
+    },
+    {
+      "contents": "\\$SMPROGRAMS",
+      "trigger": "SMPROGRAMS\t$SMPROGRAMS"
+    },
+    {
+      "contents": "\\$TEMP",
+      "trigger": "TEMP\t$TEMP"
+    },
+    {
+      "contents": "\\$SMSTARTUP",
+      "trigger": "SMSTARTUP\t$SMSTARTUP"
+    },
+    {
+      "contents": "\\$FAVORITES",
+      "trigger": "FAVORITES\t$FAVORITES"
+    },
+    {
+      "contents": "\\$CDBURN_AREA",
+      "trigger": "CDBURN_AREA\t$CDBURN_AREA"
+    },
+    {
+      "contents": "\\$LOCALAPPDATA",
+      "trigger": "LOCALAPPDATA\t$LOCALAPPDATA"
+    },
+    {
+      "contents": "\\$WINDIR",
+      "trigger": "WINDIR\t$WINDIR"
+    },
+    {
+      "contents": "\\$SENDTO",
+      "trigger": "SENDTO\t$SENDTO"
+    },
+    {
+      "contents": "\\$INTERNET_CACHE",
+      "trigger": "INTERNET_CACHE\t$INTERNET_CACHE"
+    },
+    {
+      "contents": "\\$PROGRAMFILES64",
+      "trigger": "PROGRAMFILES64\t$PROGRAMFILES64"
+    },
+    {
+      "contents": "\\$SYSDIR",
+      "trigger": "SYSDIR\t$SYSDIR"
+    },
+    {
+      "contents": "\\$FONTS",
+      "trigger": "FONTS\t$FONTS"
+    },
+    {
+      "contents": "\\$PLUGINSDIR",
+      "trigger": "PLUGINSDIR\t$PLUGINSDIR"
+    },
+    {
+      "contents": "\\$VIDEOS",
+      "trigger": "VIDEOS\t$VIDEOS"
+    },
+    {
+      "contents": "\\$DESKTOP",
+      "trigger": "DESKTOP\t$DESKTOP"
+    },
+    {
+      "contents": "\\$RECENT",
+      "trigger": "RECENT\t$RECENT"
+    },
+    {
+      "contents": "\\$RESOURCES",
+      "trigger": "RESOURCES\t$RESOURCES"
+    },
+    {
+      "contents": "\\$OUTDIR",
+      "trigger": "OUTDIR\t$OUTDIR"
+    },
+    {
+      "contents": "\\$INSTDIR",
+      "trigger": "INSTDIR\t$INSTDIR"
+    },
+    {
+      "contents": "\\$COMMONFILES32",
+      "trigger": "COMMONFILES32\t$COMMONFILES32"
+    },
+    {
+      "contents": "\\$EXEDIR",
+      "trigger": "EXEDIR\t$EXEDIR"
+    },
+    {
+      "contents": "\\$NETHOOD",
+      "trigger": "NETHOOD\t$NETHOOD"
+    },
+    {
+      "contents": "\\$PROGRAMFILES",
+      "trigger": "PROGRAMFILES\t$PROGRAMFILES"
+    },
+    {
+      "contents": "\\$PROGRAMFILES32",
+      "trigger": "PROGRAMFILES32\t$PROGRAMFILES32"
+    },
+    {
+      "contents": "\\$MUSIC",
+      "trigger": "MUSIC\t$MUSIC"
+    },
+    {
+      "contents": "\\$HISTORY",
+      "trigger": "HISTORY\t$HISTORY"
+    },
+    {
+      "contents": "\\$ADMINTOOLS",
+      "trigger": "ADMINTOOLS\t$ADMINTOOLS"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Pynsist Configuration
+file_extensions:
+  - cfg
+scope: source.cfg.pynsist
+variables:
+  nsis_variables: '(?i)\$(ADMINTOOLS|APPDATA|CDBURN_AREA|COMMONFILES|COOKIES|DESKTOP|DOCUMENTS|EXEDIR|FAVORITES|FONTS|HISTORY|INSTDIR|INTERNET_CACHE|LOCALAPPDATA|MUSIC|NETHOOD|OUTDIR|PICTURES|PLUGINSDIR|PRINTHOOD|PROFILE|PROGRAMFILES(32|64)?|QUICKLAUNCH|RECENT|RESOURCES_LOCALIZED|RESOURCES|SENDTO|SMPROGRAMS|SMSTARTUP|STARTMENU|SYSDIR|TEMP|TEMPLATES|VIDEOS|WINDIR)'
+  nsis_constants: '(?i)\$(\{PRODUCT_NAME\})'
+contexts:
+  main:
+    - match: ^\s*(;|#).*$\n?
+      scope: comment.line.semicolon.pynsist
+      captures:
+        1: punctuation.definition.comment.pynsist
+    - match: '{{nsis_variables}}'
+      scope: variable.language.pynsist
+    - match: '{{nsis_constants}}'
+      scope: constant.language.pynsist
+    - match: '((0(x|X)[0-9a-fA-F]{3,6})|([0-9]+(\.[0-9]+)*))\b'
+      scope: constant.numeric.pynsist
+    - match: '^\s*(\[)(.*?)(\])'
+      scope: entity.name.section.pynsist
+      captures:
+        1: punctuation.definition.section.pynsist
+        2: entity.section.pynsist
+        3: punctuation.definition.section.pynsist
+    - match: '^(\s*(["'']?)(.+?)(\2)\s*(=))?\n?'
+      scope: meta.declaration.pynsist
+      captures:
+        1: meta.property.pynsist
+        2: punctuation.definition.quote.pynsist
+        3: keyword.name.pynsist
+        4: punctuation.definition.quote.pynsist
+        5: punctuation.definition.equals.pynsist
+        6: meta.value.pynsist
+        7: punctuation.definition.quote.pynsist
+        8: string.name.value.pynsist
+        9: punctuation.definition.quote.pynsist
+        10: comment.declarationline.semicolon.pynsist
+        11: variable.language.pynsist
+        12: constant.language.pynsist
+    - match: '"'
+      captures:
+        0: punctuation.definition.string.begin.pynsist
+      push:
+        - meta_scope: string.quoted.double.pynsist
+        - match: '"'
+          captures:
+            0: punctuation.definition.string.end.pynsist
+          pop: true
+        - match: '{{nsis_variables}}'
+          scope: variable.language.pynsist
+        - match: '{{nsis_constants}}'
+          scope: constant.language.pynsist
+    - match: "'"
+      captures:
+        0: punctuation.definition.string.begin.pynsist
+      push:
+        - meta_scope: string.quoted.single.pynsist
+        - match: "'"
+          captures:
+            0: punctuation.definition.string.end.pynsist
+          pop: true
+        - match: '{{nsis_variables}}'
+          scope: variable.language.pynsist
+        - match: '{{nsis_constants}}'
+          scope: constant.language.pynsist

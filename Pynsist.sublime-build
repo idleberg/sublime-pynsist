@@ -1,0 +1,9 @@
+{
+    "selector": "source.cfg.pynsist",
+    "cmd": ["pynsist", "$file"],
+    "variants": [
+        { "name": "No MakeNSIS",
+          "cmd": ["pynsist", "--no-makensis", "$file"]
+        }
+    ]
+}
