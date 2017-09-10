@@ -7,6 +7,10 @@
 
 Language support and build-system for [pynsist](https://pypi.python.org/pypi/pynsist), a tool to build Windows installers for your Python applications
 
+![Screenshot](https://raw.githubusercontent.com/idleberg/sublime-pynsist/master/screenshot.gif)
+
+*Screenshot of Pynsist in action*
+
 ## Installation
 
 ### Package Control
