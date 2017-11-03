@@ -26,7 +26,7 @@ contexts:
         1: punctuation.definition.section.pynsist
         2: entity.section.pynsist
         3: punctuation.definition.section.pynsist
-    - match: ^(\s*(["']?)(bitness|console|directory|entry_point|exclude|extra_preamble|files|format|icon|include_msvcrt|installer_name|name|nsi_template|packages|parameters|publisher|pypi_wheels|script|target|version)(\2)\s*)(?:=)
+    - match: ^(\s*(["']?)(bitness|console|directory|entry_point|exclude|extra_preamble|extra_wheel_sources|files|format|icon|include_msvcrt|installer_name|name|nsi_template|packages|parameters|publisher|pypi_wheels|script|target|version)(\2)\s*)(?:=)
       scope: meta.declaration.pynsist
       captures:
         1: meta.property.pynsist
