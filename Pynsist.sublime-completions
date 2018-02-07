@@ -70,6 +70,10 @@
       "trigger": "installer_name\t="
     },
     {
+      "contents": "license_file=${1:license}.txt",
+      "trigger": "license_file\t="
+    },
+    {
       "contents": "name=${1:name}",
       "trigger": "name\t="
     },
