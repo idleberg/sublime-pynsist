@@ -71,11 +71,11 @@
     },
     {
       "contents": "license_file=${1:license}.rtf",
-      "trigger": "license_file rtf\t="
+      "trigger": "license_file:rtf\t="
     },
     {
       "contents": "license_file=${1:license}.txt",
-      "trigger": "license_file txt\t="
+      "trigger": "license_file:txt\t="
     },
     {
       "contents": "name=${1:name}",
