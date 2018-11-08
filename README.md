@@ -29,6 +29,11 @@ Language support and build-system for [pynsist](https://pypi.python.org/pypi/pyn
 1. Download the latest [stable release](https://github.com/idleberg/sublime-pynsist/releases)
 2. Unzip the archive to your Sublime Text `Packages` directory
 
+## Related
+
+- [atom-pynsist](https://atom.io/packages/pynsist)
+- [vscode-pynsist](https://marketplace.visualstudio.com/items?itemName=idleberg.pynsist)
+
 ## License
 
 This work is licensed under the [The MIT License](LICENSE).
