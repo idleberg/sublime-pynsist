@@ -78,6 +78,10 @@
       "trigger": "license_file:txt\t="
     },
     {
+      "contents": "local_wheels=${1:wheel}",
+      "trigger": "local_wheels\t="
+    },
+    {
       "contents": "name=${1:name}",
       "trigger": "name\t="
     },
